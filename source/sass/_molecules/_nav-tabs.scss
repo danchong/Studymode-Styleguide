@@ -1,0 +1,41 @@
+.nav-tabs {
+  margin-bottom: pxr(15px);
+  text-align: center;
+
+  @include breakpoint(large) {
+    text-align: right;
+  }
+
+  &__item {
+    border-bottom: 2px solid transparent;
+    color: $ash-gray;
+    display: inline-block;
+    font-size: pxe(12px);
+    font-weight: 500;
+    letter-spacing: pxe(1px);
+    margin: 0 pxe(10px);
+    padding: pxe(10px);
+    text-transform: uppercase; 
+    
+    &:hover {
+      border-bottom: 2px solid $light-gray;
+    } 
+  }
+  
+  &__content {
+    display: none;
+    
+    &--active {
+      display: block;
+    }
+  }
+  
+  &--active {
+    border-bottom: 2px solid $brand-primary;
+    color: $brand-primary;
+
+    &:hover {
+      border-color: $brand-primary;
+    } 
+  }
+}

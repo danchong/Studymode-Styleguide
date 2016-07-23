@@ -1,0 +1,159 @@
+.card {
+  @include border-radius(pxr(4px));
+  background-color: $white;
+  border: pxr(1px) solid $border-gray;
+  line-height: 1.75;
+  min-height: 0;
+  padding: pxr(24px);
+
+  @include breakpoint(large) {
+    min-height: 230px;
+  }
+  
+  a {
+    color: $mid-gray;
+
+    &:hover {
+      color: $brand-primary;
+    }
+  }
+
+  &__link {
+    color: $mid-gray;
+    font-size: pxe(12px);
+    font-weight: 500;
+    letter-spacing: pxr(1px);
+    text-transform: uppercase;
+
+    &::after {
+      color: $ash-gray;
+      content: " ›";
+      font-size: pxr(16px);
+      margin-left: pxr(5px);
+    }
+  }
+  
+  h6 {
+    line-height: 1.2;
+    margin-bottom: pxr(5px);
+  }
+
+  &__content {
+    color: $ash-gray;
+    font-size: pxe(14px);
+    margin-bottom: pxr(10px);
+    
+    @include breakpoint(large) {
+      min-height: 6em;
+    }
+  }
+
+  &--label {
+    h6 {
+      font-size: pxe(20px);
+      line-height: 1.2;
+      margin-bottom: pxr(10px);
+    }
+
+    p {
+      margin-bottom: 0;
+      position: relative;
+
+      &::after {
+        @include gradient-tb($white, $transparent);
+        content: '';
+        display: block;
+        height: 100%;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 100%;
+      }
+    }
+  }
+  
+  &--avatar {
+    @include breakpoint(large) {
+      min-height: 250px;
+    }
+
+    blockquote {
+      margin-top: pxe(15px);
+    }
+  }
+}
+
+
+.card--cta {
+  background-color: transparent;
+  border: pxr(1px) solid $charcoal-gray;
+  border-top: pxe(2px) solid $brand-primary;
+  line-height: 1;
+  min-height: 200px;
+  padding: pxr(40px) pxr(10px) pxr(20px);
+  text-align: center;
+
+  h5 {
+    color: $white;
+    margin-bottom: pxr(10px);
+  }
+  
+  p {
+    color: $light-gray;
+    font-size: pxe(14px);
+  }
+
+  .icon {
+    color: $brand-primary;
+    font-size: pxe(40px);
+  }
+  
+  &.cta--drive {
+    border-top: pxe(2px) solid $orange;
+    
+    .icon {
+      color: $orange;
+    }
+    
+    .card--cta__colored-text {
+      color: $orange;
+    }
+  }
+  
+  &.cta--texty {
+    border-top: pxe(2px) solid $yellow;
+    
+    .icon {
+      color: $yellow;
+    }
+    
+    .card--cta__colored-text {
+      color: $yellow;
+    }
+  }
+  
+  &.cta--answers {
+    border-top: pxe(2px) solid $green;
+    
+    .icon {
+      color: $green;
+    }
+    
+    .card--cta__colored-text {
+      color: $green;
+    }
+  }
+  
+  &.cta--studymode {
+    border-top: pxe(2px) solid $blue;
+    
+    .icon {
+      color: $blue;
+    }
+    
+    .card--cta__colored-text {
+      color: $blue;
+    }
+  }
+}
+

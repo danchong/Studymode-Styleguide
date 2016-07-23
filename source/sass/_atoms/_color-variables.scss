@@ -1,0 +1,80 @@
+// Color Variables
+
+// Result: This did not work because it would require a recompile per request
+
+
+$black: #000;
+$black-20: rgba(0, 0, 0, .2);
+$black-50: rgba(0, 0, 0, .5);
+$blue: #419ad9;
+$dark-blue: #262d33;
+$dark-blue-gray: #162a36;
+$blue-aqua: #54badd;
+$blue-aqua-light: #d8e0e5;
+$gold: #e0ac43;
+$green: #30bf78;
+$green-teal: #2af9b0;
+$border-gray: #e1e4e5;
+$section-gray: #fafafa;
+$light-gray: #c2c8cc;
+$ash-gray: #959fa6;
+$mid-gray: #737a80;
+$charcoal-gray: #435059;
+$gunmetal-gray: #303940;
+$dark-gray: #1d2226;
+$gray-mid-10: rgba(50, 50, 50, .1);
+$gray-ultra-light: #efefef;
+$orange: #f2793d;
+$purple: #7562d9;
+$red: #f44336;
+$salmon: #e55069;
+$transparent: rgba(255, 255, 255, 0);
+$text: $charcoal-gray;
+$yellow: #fbde4a;
+$white: #fff;
+$white-20: rgba(255, 255, 255, .2);
+$white-50: rgba(255, 255, 255, .5);
+
+$brand-primary: $blue;
+
+$gradient-blue-aqua-1: #3284bf;
+$gradient-blue-aqua-2: #38b1d9;
+$gradient-green-teal-1: #30bf78;
+$gradient-green-teal-2: #21d9ba;
+$gradient-orange-gold-1: #f2793d;
+$gradient-orange-gold-2: #f2973d;
+$gradient-purple-aqua-1: #a250e5;
+$gradient-purple-aqua-2: #17e5e5;
+$gradient-salmon-orange-1: #ff4c88;
+$gradient-salmon-orange-2: #e57a45;
+$gradient-aqua-green-1: #41b3d9;
+$gradient-aqua-green-2: #36d987;
+
+
+.orange {
+  background-color: $orange;
+}
+
+.salmon {
+  background-color: $salmon;
+}
+
+.purple {
+  background-color: $purple;
+}
+
+.blue {
+  background-color: $blue;
+}
+
+.dark-gray {
+  background-color: $dark-gray;
+}
+
+.brand-color {
+  color: $brand-primary;
+}
+
+.brand-background {
+  background-color: $brand-primary;
+}

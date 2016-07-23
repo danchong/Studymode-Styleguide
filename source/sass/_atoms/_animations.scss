@@ -1,0 +1,13 @@
+.animate-fade {
+  transition: opacity .3s ease-out;
+
+  &:hover {
+    opacity: 0;  
+  }
+}
+
+.animate-move {
+  > .demo-shape {
+    transition: all .8s ease-in-out;
+  }
+}

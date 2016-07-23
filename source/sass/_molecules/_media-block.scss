@@ -1,0 +1,71 @@
+.media-block {
+  line-height: 1.75;
+  padding-left: pxr(90px);
+  position: relative;
+
+  &__avatar {
+    @include border-radius(50%);
+    border: pxe(1px) solid $border-gray;
+    height: 60px;
+    left: 0;
+    line-height: 1;
+    padding: pxe(12px);
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 60px;
+
+    .icon {
+      color: $brand-primary;
+      font-size: pxe(20px);
+      line-height: pxe(32px);
+    }
+  }
+
+  &__content {
+    h5 {
+      font-size: pxe(16px);
+      font-weight: 500;
+    }
+
+    p {
+      color: $ash-gray;
+      font-size: pxe(14px);
+      margin-bottom: 0;
+    }
+  }
+}
+
+.card--avatar {
+  .media-block {
+    margin-bottom: 0;
+    padding-left: pxe(50px);
+
+    &__content {
+      h5 {
+        font-size: pxe(14px);
+        line-height: 1;
+      }
+    }
+    
+    &__avatar {
+      border: 0;
+      height: auto;
+      padding: 0;
+      width: auto;
+      
+      img {
+        @include border-radius(50%);
+        height: pxe(32px);
+        width: pxe(32px);
+      }
+    }
+  }
+}
+
+.section-content {
+  .column > .media-block, 
+  .columns > .media-block {
+    margin-bottom: pxr(60px);
+  }
+}

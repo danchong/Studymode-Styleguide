@@ -1,0 +1,45 @@
+{{^showExamples}}
+<button class="button {{styleModifier}}">{{text.button}}</button>
+{{/showExamples}}
+
+{{#showExamples}}
+<div class="row">
+  <h3>States</h3>
+  
+  <div class="three columns">
+    <h4>Active</h4>
+    <button class="button">Default Enabled</button>
+    <button class="button button--outline">Outline Enabled</button>
+    <button class="button button--inverse">Inverse Enabled</button>
+  </div>
+
+  <div class="three columns">
+    <h4>Disabled</h4>
+    <button class="button button--disabled">Default Disabled</button>
+    <button class="button button--outline button--disabled">Outline Disabled</button>
+    <button class="button button--inverse button--disabled">Inverse Disabled</button>
+  </div>
+</div>
+
+<div class="row">
+  <h3>Colors</h3>
+  
+  <div class="three columns">
+    <button class="button button--blue">Blue</button>
+    <button class="button button--orange">Orange</button>
+    <button class="button button--green">Green</button>
+    <button class="button button--salmon">Salmon</button>
+    <button class="button button--purple">Purple</button>
+  </div>
+</div>
+
+<div class="row">
+  <h3>Links as Buttons</h3>
+  
+  <div class="three columns">
+    <a class="button">Blue</a>
+    <a class="button button--blue">Blue</a>
+    <a class="button button--inverse">Inverse</a>
+  </div>
+</div>
+{{/showExamples}}

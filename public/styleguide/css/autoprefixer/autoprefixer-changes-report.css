@@ -1,0 +1,14 @@
+Index: core/styleguide/css/sm-texty.css
+===================================================================
+--- core/styleguide/css/sm-texty.css
++++ core/styleguide/css/sm-texty.css
+@@ -27,7 +27,5 @@
+ 
+ a {
+   color: #fbde4a; }
+   a:hover {
+-    color: #fad518; }
+-
+-/*# sourceMappingURL=sm-texty.css.map */
+\ No newline at end of file
++    color: #fad518; }

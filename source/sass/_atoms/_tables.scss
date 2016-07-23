@@ -1,0 +1,19 @@
+// Tables
+
+table {
+  border: 1px solid $border-gray;
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+}
+
+th {
+  border: 1px solid $border-gray;
+  padding: .2em;
+  text-align: left;
+}
+
+td {
+  border: 1px solid $border-gray;
+  padding: .2em;
+}

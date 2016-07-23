@@ -1,0 +1,20 @@
+.component-category {
+//   height: 4em;
+  margin-bottom: pxe(30px);
+  max-width: 300px;
+  padding: pxe(5px) 0;
+  text-align: center;
+
+  p {
+    color: $charcoal-gray;
+    font-size: pxe(14px);
+  }
+
+  &__icon {
+    color: $brand-primary;
+    display: inline-block;
+    font-size: pxe(28px);
+    height: 40px;
+//     margin-bottom: pxe(5px);
+  }
+}

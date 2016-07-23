@@ -1,0 +1,74 @@
+//Card Brick CSS
+
+.card-brick {
+  @include border-radius(pxr(4px));
+  background-color: $white;
+  border: pxr(1px) solid $border-gray;
+  margin-bottom: pxr(24px);
+  padding: pxr(15px);
+  
+  &__title {
+    color: $charcoal-gray;
+    display: block;
+    float: left;
+    font-size: 1em;
+    font-weight: 500;
+    line-height: 1;
+    margin-top: pxe(3px);
+  }
+  
+  &__avatars {
+    float: right;
+  }
+  
+  &__avatar {
+    @include border-radius(pxr(10px));
+    color: $white;
+    display: block;
+    float: left;
+    font-size: pxe(12px);
+    font-weight: 700;
+    height: pxe(24px);
+    line-height: pxe(24px);
+    margin: 0 pxe(5px) 0 0;
+    text-align: center;
+    width: pxe(24px);
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+  
+  &__sub-title {
+    color: $brand-primary;
+    float: left;
+    font-size: pxe(14px);
+    line-height: 1;
+  }
+
+  &__icons-detail {
+    color: $mid-gray;
+    float: right;
+    font-size: pxe(14px);
+    line-height: 1;
+  }
+  
+  &:hover {
+    box-shadow: $box-shadow;
+    transition: all .25s;
+  }
+}
+
+.card-row {
+  + .card-row {
+    margin-top: pxe(5px);
+  }
+
+  &::after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;  
+  }
+}

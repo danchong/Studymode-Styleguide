@@ -1,0 +1,387 @@
+{
+	"showExamples": true,
+	"text": {
+		"heroTitle": "Pinnace Holystone Mizzenmast Quarter",
+		"heroSubtitle": "Prow scuttle parrel provost Sail ho shrouds spirits boom mizzenmast yardarm.",
+		"placeholder": "Deadlights jack lad schooner scallywag dance ",
+		"heroBullet": "Trysail Sail ho Corsair red ensign hulk",
+		"categoryName": "Ballast Blimey",
+		"sectionHeading": "Scourge of the seven seas",
+		"sectionSubheading": "Belay yo-ho-ho keelhaul squiffy black spot yardarm spyglass sheet transom heave to.",
+		"button": "Corsair red ensign",
+		"cardTitle": "Wherry trysail shrouds hardtack ho hogshead",
+		"cardLabel": "halter lugger",
+		"cardContent": "Broadside hang the jib bowsprit dead men tell no tales me Arr Barbary Coast case shot draught pink. Reef coxswain grapple draught rutters keel broadside fire ship ho ballast.",
+		"cardLink": "Plate Fleet Transom",
+		"tag": "Davy Jones' Locker",
+		"label": "Bucko matey hearties",
+		"mediaBlockTitle": "Bilge to go on account jolly boat",
+		"mediaBlockContent": "Admiral of the Black yard cutlass Pieces of Eight yardarm belaying pin come about nipperkin schooner tender. Hempen halter Shiver me timbers lass heave to quarterdeck Jack Ketch heave down tack main sheet grapple.",
+		"avatarCardTitle": "Spirits pirate bilge water",
+		"avatarCardContent": "Spirits Jack Tar coxswain mutiny keelhaul lad lee hands take a caulk killick",
+		"avatarCardQuote": "Jib red ensign warp salmagundi wherry carouser to go on account skysail starboard marooned. Admiral of the Black yard cutlass Pieces of Eight yardarm belaying pin come about nipperkin schooner tender. Hempen halter Shiver me timbers lass heave to quarterdeck Jack Ketch heave down tack main sheet grapple.",
+		"cardCta": "Plate Fleet holystone tack clipper pirate careen rutters.",
+		"cardProperty": "Anchor",
+		"verticalNavHeading": "loot plunder",
+		"verticalNavListItemText": "Sink me rope's end",
+		"verticalNavListItemTagText": "starboard",
+		"navTabItem": "Marque Arr lugger",
+		"navTabContent": "Knave bounty fire ship fluke bowsprit sloop fathom chase guns gibbet grog. Gunwalls lateen sail pressgang crow's nest jury mast man-of-war bowsprit Sail ho case shot Barbary Coast. Log bilge water Pirate Round sheet sloop loaded to the gunwalls dead men tell no tales cog spanker topmast."
+	},
+	"facebookUrl": "http://www.facebook.com/StudyMode",
+	"twitterUrl": "http://twitter.com/studymode",
+	"instagramUrl": "https://instagram.com/study_mode",
+	"navTabContentClass": "nav-tabs__content--active",
+	"img": "https://s3.amazonaws.com/uifaces/faces/twitter/sachagreif/48.jpg",
+	"cardCtaIcon": "icon-document",
+	"verticalNavListItemTag": true,
+	"icon": "icon-ui-search",
+	"labelExamples": [
+		{
+			"text": {
+				"label": "default"
+			},
+			"labelClass": ""
+		},
+		{
+			"text": {
+				"label": "blue"
+			},
+			"labelClass": "label--blue"
+		},
+		{
+			"text": {
+				"label": "orange"
+			},
+			"labelClass": "label--orange"
+		},
+		{
+			"text": {
+				"label": "green"
+			},
+			"labelClass": "label--green"
+		},
+		{
+			"text": {
+				"label": "salmon"
+			},
+			"labelClass": "label--salmon"
+		},
+		{
+			"text": {
+				"label": "purple"
+			},
+			"labelClass": "label--purple"
+		}
+	],
+	"labelExamplesLight": [
+		{
+			"text": {
+				"label": "default light"
+			},
+			"labelClass": "label--light"
+		},
+		{
+			"text": {
+				"label": "blue light"
+			},
+			"labelClass": "label--light label--blue"
+		},
+		{
+			"text": {
+				"label": "orange light"
+			},
+			"labelClass": "label--light label--orange"
+		},
+		{
+			"text": {
+				"label": "green light"
+			},
+			"labelClass": "label--light label--green"
+		},
+		{
+			"text": {
+				"label": "salmon light"
+			},
+			"labelClass": "label--light label--salmon"
+		},
+		{
+			"text": {
+				"label": "purple light"
+			},
+			"labelClass": "label--light label--purple"
+		}
+	],
+	"labelExamplesInverse": [
+		{
+			"text": {
+				"label": "default inverse"
+			},
+			"labelClass": "label--inverse"
+		},
+		{
+			"text": {
+				"label": "blue inverse"
+			},
+			"labelClass": "label--inverse label--blue"
+		},
+		{
+			"text": {
+				"label": "orange inverse"
+			},
+			"labelClass": "label--inverse label--orange"
+		},
+		{
+			"text": {
+				"label": "green inverse"
+			},
+			"labelClass": "label--inverse label--green"
+		},
+		{
+			"text": {
+				"label": "salmon inverse"
+			},
+			"labelClass": "label--inverse label--salmon"
+		},
+		{
+			"text": {
+				"label": "purple inverse"
+			},
+			"labelClass": "label--inverse label--purple"
+		}
+	],
+	"tagExamples": [
+		{
+			"text": {
+				"tag": "default"
+			},
+			"tagClass": ""
+		},
+		{
+			"text": {
+				"tag": "blue"
+			},
+			"tagClass": "sm-tag--blue"
+		},
+		{
+			"text": {
+				"tag": "orange"
+			},
+			"tagClass": "sm-tag--orange"
+		},
+		{
+			"text": {
+				"tag": "green"
+			},
+			"tagClass": "sm-tag--green"
+		},
+		{
+			"text": {
+				"tag": "salmon"
+			},
+			"tagClass": "sm-tag--salmon"
+		},
+		{
+			"text": {
+				"tag": "purple"
+			},
+			"tagClass": "sm-tag--purple"
+		}
+	],
+	"tagExamplesLight": [
+		{
+			"text": {
+				"tag": "default light"
+			},
+			"tagClass": "sm-tag--light"
+		},
+		{
+			"text": {
+				"tag": "blue light"
+			},
+			"tagClass": "sm-tag--light sm-tag--blue"
+		},
+		{
+			"text": {
+				"tag": "orange light"
+			},
+			"tagClass": "sm-tag--light sm-tag--orange"
+		},
+		{
+			"text": {
+				"tag": "green light"
+			},
+			"tagClass": "sm-tag--light sm-tag--green"
+		},
+		{
+			"text": {
+				"tag": "salmon light"
+			},
+			"tagClass": "sm-tag--light sm-tag--salmon"
+		},
+		{
+			"text": {
+				"tag": "purple light"
+			},
+			"tagClass": "sm-tag--light sm-tag--purple"
+		}
+	],
+	"tagExamplesInverse": [
+		{
+			"text": {
+				"tag": "default inverse"
+			},
+			"tagClass": "sm-tag--inverse"
+		},
+		{
+			"text": {
+				"tag": "blue inverse"
+			},
+			"tagClass": "sm-tag--inverse sm-tag--blue"
+		},
+		{
+			"text": {
+				"tag": "orange inverse"
+			},
+			"tagClass": "sm-tag--inverse sm-tag--orange"
+		},
+		{
+			"text": {
+				"tag": "green inverse"
+			},
+			"tagClass": "sm-tag--inverse sm-tag--green"
+		},
+		{
+			"text": {
+				"tag": "salmon inverse"
+			},
+			"tagClass": "sm-tag--inverse sm-tag--salmon"
+		},
+		{
+			"text": {
+				"tag": "purple inverse"
+			},
+			"tagClass": "sm-tag--inverse sm-tag--purple"
+		}
+	],
+	"categoryIcon": "icon-arts-humanities",
+	"navTabItems": [
+		{
+			"navTabItemClass": "nav-tabs--active"
+		},
+		{
+			"navTabItemClass": ""
+		},
+		{
+			"navTabItemClass": ""
+		}
+	],
+	"categoryNames1": [
+		{},
+		{},
+		{},
+		{},
+		{},
+		{}
+	],
+	"categoryNames2": [
+		{},
+		{},
+		{},
+		{},
+		{},
+		{}
+	],
+	"writingTipsCards1": [
+		{},
+		{},
+		{}
+	],
+	"writingTipsCards2": [
+		{},
+		{},
+		{}
+	],
+	"exampleEssayCardsTopRated": {
+		"exampleEssayCards1": [
+			{
+				"cardLabel": true
+			},
+			{
+				"cardLabel": true
+			},
+			{
+				"cardLabel": true
+			}
+		],
+		"exampleEssayCards2": [
+			{
+				"cardLabel": true
+			},
+			{
+				"cardLabel": true
+			},
+			{
+				"cardLabel": true
+			}
+		]
+	},
+	"popularTopicTags": [
+		{},
+		{},
+		{},
+		{},
+		{},
+		{},
+		{},
+		{},
+		{},
+		{},
+		{},
+		{},
+		{},
+		{},
+		{},
+		{},
+		{},
+		{},
+		{},
+		{}
+	],
+	"writingGeniusMediaBlocks1": [
+		{},
+		{}
+	],
+	"writingGeniusMediaBlocks2": [
+		{},
+		{}
+	],
+	"writingGeniusAvatarCards": [
+		{},
+		{},
+		{}
+	],
+	"sectionInverseCtaCards": [
+		{},
+		{},
+		{}
+	],
+	"sectionFooterLists": [
+		{},
+		{},
+		{}
+	],
+	"verticalNavListItems": [
+		{},
+		{},
+		{},
+		{},
+		{},
+		{}
+	],
+	"heroBullets": [
+		{},
+		{},
+		{}
+	]
+}

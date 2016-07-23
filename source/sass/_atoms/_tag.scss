@@ -1,0 +1,58 @@
+// Topic Tags
+.sm-tag {
+  @include border-radius(pxr(15px));
+  border: pxr(1px) solid $border-gray;
+  color: $mid-gray;
+  display: inline-block;
+  font-size: pxr(11px);
+  font-weight: 500;
+  letter-spacing: pxr(2px);
+  margin-bottom: pxr(10px);
+  padding: pxr(3px) pxr(10px);
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  
+  &--light {
+    background: $white-20;
+    color: $white;
+  }
+  
+  &--inverse {
+    background: $white-20;
+    border-color: transparent;
+    color: $white;
+  }
+  
+  &--blue {
+    @include gradient-lr($blue, $blue-aqua);
+    color: $white;
+  }
+  
+  &--orange {
+    background-color: $orange;
+    color: $white;
+  }
+  
+  &--green {
+    background-color: $green;
+    color: $white;
+  }  
+  
+  &--salmon {
+    background-color: $salmon;
+    color: $white;
+  }  
+  
+  &--purple {
+    background-color: $purple;
+    color: $white;
+  }
+  
+  &--small {
+    @include border-radius(pxr(10px));
+    font-size: pxe(10px);
+    line-height: pxe(18px);
+    padding: pxe(3px) pxr(8px);
+  }
+}

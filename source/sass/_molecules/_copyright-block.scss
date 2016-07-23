@@ -1,0 +1,56 @@
+.copyright-block {
+  color: $ash-gray;
+  margin-bottom: pxr(25px);
+  
+  &__icon {
+    height: pxe(30px);
+    margin-bottom: pxe(35px);
+    
+    i {
+      font-size: pxe(30px);
+      
+      @include breakpoint(medium) {
+        float: left;
+        margin-right: pxe(4px);
+      }
+
+    }
+    
+    span {
+      display: inline-block;
+      font-size: pxe(16px);
+      font-weight: 400;
+      line-height: pxe(30px);
+      vertical-align: top;
+      
+      @include breakpoint(medium) {
+        float: left;
+      }
+
+    }
+  }
+  
+  &__social {
+    margin-bottom: pxe(30px);
+    
+    .icon--circle {
+      border-color: $charcoal-gray; 
+      display: inline-block;
+      height: pxe(37px);
+      margin-right: pxe(7px);
+      text-align: center;
+      width: pxe(37px);
+      
+      .icon {
+        color: $light-gray;
+        font-size: 1em;
+        line-height: 2.6em;
+      }
+    }
+  }
+  
+  small {
+    display: block;
+    font-size: pxe(14px);
+  }
+}

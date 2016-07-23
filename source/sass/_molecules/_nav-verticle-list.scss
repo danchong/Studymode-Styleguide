@@ -1,0 +1,31 @@
+.vertical-nav-list {
+  margin-bottom: 1.7rem;
+  
+  &__heading {
+    color: $mid-gray;
+    font-size: pxe(13px);
+    letter-spacing: pxe(2px);
+    margin-bottom: pxe(20px);
+    text-transform: uppercase;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  &__item {
+    line-height: pxe(28px);
+    
+    a {
+      color: $ash-gray;
+      font-weight: 500;
+      margin-right: pxe(5px);
+    }
+  }
+}
+
+.section-content--footer {
+  .vertical-nav-list__item a {
+    color: $light-gray;
+  }
+}

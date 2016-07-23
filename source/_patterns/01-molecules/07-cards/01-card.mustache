@@ -1,0 +1,15 @@
+<div class="card {{styleModifier}}">
+  
+  {{# cardLabel}}
+  {{> atoms-label}}
+  {{/ cardLabel}}
+  
+  <a href="{{url}}">
+    <h6>{{text.cardTitle}}</h6>
+  </a>
+   
+  <p class="card__content">{{text.cardContent}}</p>
+  
+  <a class="card__link" href="{{url}}">{{text.cardLink}}</a>
+  
+</div>

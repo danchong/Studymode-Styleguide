@@ -1,0 +1,11 @@
+{
+	"version": 3,
+	"file": "sm-research.css",
+	"sources": [
+		"../../../source/sass/sm-research.scss",
+		"../../../source/sass/_atoms/_color-variables.scss",
+		"../../../source/sass/_layout.scss"
+	],
+	"mappings": "ACqCA,OAAO,CAAC;EACN,gBAAgB,EAZT,OAAO,GAaf;;AAED,OAAO,CAAC;EACN,gBAAgB,EAbT,OAAO,GAcf;;AAED,OAAO,CAAC;EACN,gBAAgB,EAnBT,OAAO,GAoBf;;AAED,KAAK,CAAC;EACJ,gBAAgB,EA1CX,OAAO,GA2Cb;;AAED,UAAU,CAAC;EACT,gBAAgB,EA/BN,OAAO,GAgClB;;AAED,YAAY,CAAC;EACX,KAAK,EAlDA,OAAO,GAmDb;;AAED,iBAAiB,CAAC;EAChB,gBAAgB,EAtDX,OAAO,GAuDb;;AC/DD,YAAY,CAAC;EACX,KAAK,EDOA,OAAO,GCNb;;AAED,iBAAiB,CAAC;EAChB,gBAAgB,EDGX,OAAO,GCFb;;AAGD,CAAC,CAAC;EACA,KAAK,EDFA,OAAO,GCOb;EAND,CAAC,AAGE,MAAM,CAAC;IACN,KAAK,EAAE,OAAM,GACd",
+	"names": []
+}

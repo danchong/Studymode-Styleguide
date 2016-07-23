@@ -1,0 +1,11 @@
+@function pxr($pixel-size) {
+  @return #{calculate-unit-ratio($pixel-size)}rem;
+}
+
+@function pxe($pixel-size) {
+  @return #{calculate-unit-ratio($pixel-size)}em;
+}
+
+@function calculate-unit-ratio($pixel-size) {
+  @return $pixel-size / 16px;
+}

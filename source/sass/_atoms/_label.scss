@@ -1,0 +1,36 @@
+
+.label {
+  @include border-radius(pxr(4px));
+  background-color: $light-gray;
+  border: 0 solid transparent;
+  color: $white;
+  display: inline-block;
+  font-size: pxr(11px);
+  font-weight: 600;
+  letter-spacing: pxr(2px);
+  line-height: 1;
+  margin-bottom: pxr(10px);
+  padding: pxr(7px) pxr(13px);
+  text-transform: uppercase;
+  vertical-align: baseline;
+  white-space: nowrap;
+  
+  &--blue {
+    @include gradient-lr($blue, $blue-aqua);}
+  
+  &--orange {
+    background-color: $orange;
+  }
+  
+  &--green {
+    background-color: $green;
+  }  
+  
+  &--salmon {
+    background-color: $salmon;
+  }  
+  
+  &--purple {
+    background-color: $purple;
+  }  
+}

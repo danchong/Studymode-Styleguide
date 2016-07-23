@@ -1,0 +1,51 @@
+.sm-themes {
+  padding: 7px;
+  display: inline-block;
+}
+
+.sm-themes-list {
+/*   background-color: rgba(0, 0, 0, .9); */
+  background: #222;
+  bottom: 0;
+  left: 0;
+  padding: 4px;
+  position: absolute;
+/*   top: 33px; */
+  right: 0;
+  z-index: 1;
+}
+
+.sm-themes-list a {
+  color: #aaa;
+  border-right: 1px solid black;
+  padding: 0 10px;
+  font-size: 70%;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: "HelveticaNeue", "Helvetica", "Arial", sans-serif;
+}
+.sm-themes-list .active.sm-theme-list--default,
+.sm-themes-list a.sm-theme-list--default:hover {
+  color: white;
+}
+.sm-themes-list .active.sm-theme-list--research,
+.sm-themes-list .sm-theme-list--research:hover {
+  color: #419ad9;
+}
+.sm-themes-list .active.sm-theme-list--drive,
+.sm-themes-list .sm-theme-list--drive:hover {
+  color: #f2793d;
+}
+.sm-themes-list .active.sm-theme-list--answers,
+.sm-themes-list .sm-theme-list--answers:hover {
+  color: #30bf78;
+}
+.sm-themes-list .active.sm-theme-list--texty,
+.sm-themes-list .sm-theme-list--texty:hover {
+  color: #e0ac43;
+}
+
+
+.sm-themes-list a:last-child {
+  border: none;
+}

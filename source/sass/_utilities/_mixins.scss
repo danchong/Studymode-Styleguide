@@ -1,0 +1,35 @@
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  -ms-border-radius: $radius;
+  border-radius: $radius;
+}
+
+@mixin opacity($opacity) {
+  opacity: $opacity;
+  $opacity-ie: $opacity * 100;
+  filter: alpha(opacity = $opacity-ie); //IE8
+}
+
+// Background Gradient: Left to Right
+@mixin gradient-lr($color1: $white, $color2: $light-gray) {
+  background: $color1; // Old browsers
+  background: linear-gradient(to right, $color1, $color2); // W3C
+  background: -webkit-linear-gradient(left, $color1, $color2); // Chrome10+,Safari5.1+
+  background: -o-linear-gradient(left, $color1, $color2); // Opera 11.10+
+  background: -ms-linear-gradient(left, $color1, $color2); // IE10+
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=#{$color1}, endColorstr=#{$color2},GradientType=1 ); // IE6-9
+}
+
+// Background Gradient: Top to Bottom
+@mixin gradient-tb($color2: $white, $color1: $transparent) {
+  background: transparent;
+  background: -moz-linear-gradient(top, $color1, $color2);
+  background: -webkit-gradient(left top, left bottom, $color1, $color2);
+  background: -webkit-linear-gradient(top, $color1, $color2);
+  background: -o-linear-gradient(top, $color1, $color2);
+  background: -ms-linear-gradient(top, $color1, $color2);
+  background: linear-gradient(to bottom, $color1, $color2);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='$color1', endColorstr='$color2', GradientType=0);
+}
+

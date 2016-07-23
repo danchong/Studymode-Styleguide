@@ -1,0 +1,159 @@
+// Clearfix
+
+.clearfix,
+[role=main] {
+  zoom: 1;
+}
+
+.clearfix::before,
+[role=main]::before,
+
+.clearfix::after,
+[role=main]::after {
+  content: " ";
+  display: table;
+}
+
+.clearfix::after,
+[role=main]::after {
+  clear: both;
+}
+
+.padding-bottom-sm {
+  padding-bottom: 15px;
+}
+
+.padding-bottom-lg {
+  padding-bottom: 30px; 
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+
+@include breakpoint(small) {
+  .sm-text-left {
+    text-align: left;
+  }
+
+  .sm-text-center {
+    text-align: center;
+  }
+
+  .sm-text-right {
+    text-align: right;
+  }
+}
+
+
+@include breakpoint(medium) {
+  .md-text-left {
+    text-align: left;
+  }
+
+  .md-text-center {
+    text-align: center;
+  }
+
+  .md-text-right {
+    text-align: right;
+  }
+}
+
+
+@include breakpoint(large) {
+  .lg-text-left {
+    text-align: left;
+  }
+
+  .lg-text-center {
+    text-align: center;
+  }
+
+  .lg-text-right {
+    text-align: right;
+  }
+}
+
+
+
+
+
+// Floats
+.pull-left {
+  float: left;
+}
+
+.pull-right {
+  float: right;
+}
+
+.right {
+  float: right;
+  padding: 0 0 1rem 1rem;
+}
+
+.right-search {
+  float: right;
+  padding: 0 0 1rem;
+}
+
+.left {
+  float: left;
+  padding: 0 1rem 1rem 0;
+}
+
+// Text-Align
+.align-right {
+  text-align: right;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.align-left {
+  text-align: left;
+}
+
+// Display Classes
+@media all and (max-width: 46.8em) {
+  .hide-small {
+    display: none;
+  }
+}
+
+@media all and (min-width: 46.8em) and (max-width: 50em) {
+  .hide-med {
+    display: none;
+  }
+}
+
+@media all and (min-width: 50em) {
+  .hide-large {
+    display: none;
+  }
+}
+
+@media all and (min-width: 66em) {
+  .hide-large-2 {
+    display: none;
+  }
+}
+
+.valid {
+  color: $green;
+}
+
+.error {
+  color: $red;
+}

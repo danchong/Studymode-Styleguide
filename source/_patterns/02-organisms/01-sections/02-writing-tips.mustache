@@ -1,0 +1,39 @@
+<section class="section-content">
+  <div class="container">
+    
+    <div class="row">
+      <div class="large-12 columns">
+        {{> molecules-section-heading}}
+      </div>
+    </div>
+  
+    <div class="row">
+      {{#writingTipsCards1}}
+      <div class="large-4 columns">
+        {{> molecules-card}}
+      </div>
+      {{/writingTipsCards1}}
+    </div>
+    
+    <div class="row">
+      {{#writingTipsCards2}}
+      <div class="large-4 columns">
+        {{> molecules-card}}
+      </div>
+      {{/writingTipsCards2}}
+    </div>
+    
+    <div class="row">
+      <div class="large-4 columns">
+        &nbsp;
+      </div>
+      <div class="large-4 columns">
+        {{> atoms-button-link:button--inverse}}
+      </div>
+      <div class="large-4 columns">
+        &nbsp;
+      </div>
+    </div>
+    
+  </div>
+</section>

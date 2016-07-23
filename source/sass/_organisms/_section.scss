@@ -1,0 +1,121 @@
+.section-content {
+  background-color: $white;
+  border-bottom: pxr(1px) solid $border-gray;
+  padding: pxr(60px) 0 pxr(50px);
+  position: relative;
+  
+  h2 {
+    color: $ash-gray;
+    margin-bottom: pxe(15px);
+  }
+  
+  &--hero {
+    background: url("../images/hero-3.jpg") no-repeat center center;
+    background-color: $charcoal-gray;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+    color: $white;
+    padding: pxr(50px) 0;
+    text-align: center;
+    
+    h2 {
+      color: $white;
+    }
+    
+    .search-box {
+      margin-bottom: pxr(25px);
+      max-width: pxr(770px);
+    }
+    
+    .section-heading--hero {
+      margin-bottom: pxe(20px);
+    }
+    
+    .hero__bullets {
+      display: block;
+      text-align: center;
+      width: 100%;
+      
+      @include breakpoint(large) {
+        display: table;
+      }
+      
+      [data-icon]::before,
+      [class^="icon-"]::before,
+      [class*=" icon-"]::before {
+        vertical-align: sub;
+      }
+
+      &__item {
+        display: block;
+        margin-bottom: pxr(15px);
+        width: 100%;
+        
+        @include breakpoint(large) {
+          display: table-cell;
+          width: 33%;
+        }
+      
+        span {
+          font-size: pxe(14px);
+        }
+      }
+    }
+  }
+  
+  &--gray {
+    background-color: $section-gray;
+    padding: pxr(50px) 0 pxr(20px);
+    
+    a {
+      display: block;
+      
+      &:hover p {
+        color: $brand-primary;
+      }
+    }
+  }
+  
+  &.section-content--inverse {
+    background-color: $gunmetal-gray;
+    border-bottom: 0;
+    color: $light-gray;
+    padding-bottom: pxr(55px);
+    
+    h1 {
+      color: $white;
+    }
+    
+    h2 {
+      color: $light-gray;
+    }
+    
+    .card {
+      margin-bottom: pxr(30px);
+
+      @include breakpoint(medium) {
+        margin-bottom: 0;
+      }
+    }
+  }
+  
+  &--footer {
+    background-color: $dark-gray;
+    text-align: center;
+    
+    @include breakpoint(medium) {
+      text-align: left;
+    }
+  }
+  
+  .button {
+    margin-bottom: 0;
+  }
+  
+  .card {
+    margin-bottom: pxr(30px);
+  }
+  
+}

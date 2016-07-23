@@ -1,0 +1,7 @@
+.tag-block {
+  margin-bottom: 0;
+  
+  @include breakpoint(large) {
+    margin-bottom: pxr(30px);
+  }
+}

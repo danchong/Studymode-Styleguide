@@ -1,0 +1,60 @@
+.section-heading {
+  margin-bottom: pxr(15px);
+  min-height: 50px;
+  text-align: center;
+  
+  @include breakpoint(large) {
+    text-align: left;
+  }
+  
+  h3 {
+    font-size: pxe(24px);
+    margin-bottom: pxe(5px);
+  }
+
+  p {
+    color: $ash-gray;
+    font-size: pxe(14px);
+    margin-bottom: pxe(12px);
+  }
+
+  &--hero {
+    margin-bottom: pxr(60px);
+    padding-top: pxr(10px);
+    text-align: center;
+
+    h1 {
+      font-size: pxe(36px);
+      margin-bottom: pxr(10px);
+    }
+
+    h2 {
+      font-size: 16px;
+      font-weight: 400;
+      margin-bottom: pxr(50px);
+    }
+  }
+}
+
+.section-content--hero {
+  .section-heading--hero {
+    margin-bottom: pxe(20px);
+    padding-top: 0;
+    
+    h1 {
+      font-size: pxe(32px);
+      margin-bottom: pxe(5px);
+      
+      @include breakpoint(large) {
+        font-size: pxe(48px);
+        
+      }
+    }
+  }
+}
+
+.section-content--inverse {
+  .section-heading--hero {
+    margin-bottom: pxe(34px);
+  }
+}

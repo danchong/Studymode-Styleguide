@@ -1,0 +1,31 @@
+.orange {
+  background-color: #f2793d; }
+
+.salmon {
+  background-color: #e55069; }
+
+.purple {
+  background-color: #7562d9; }
+
+.blue {
+  background-color: #419ad9; }
+
+.dark-gray {
+  background-color: #1d2226; }
+
+.brand-color {
+  color: #419ad9; }
+
+.brand-background {
+  background-color: #419ad9; }
+
+.brand-color {
+  color: #f2793d; }
+
+.brand-background {
+  background-color: #f2793d; }
+
+a {
+  color: #f2793d; }
+  a:hover {
+    color: #ec5910; }

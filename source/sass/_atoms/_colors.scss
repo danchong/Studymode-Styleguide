@@ -1,0 +1,115 @@
+.swatch {
+  display: inline-block;
+  margin: 20px;
+  
+  > div[class*="swatch--"] {
+    border-radius: 35px;
+    color: transparent;
+    float: left;
+    height: 70px;
+    width: 70px;
+  }
+}
+
+.swatch-desc {
+  font-size: 14px;
+  margin-left: 80px;
+  
+  span {
+    color: $ash-gray;
+  }
+  
+  span:first-child {
+    font-size: 16px;
+  }
+}
+
+.swatch--blue {
+  background: $blue;
+}
+
+.swatch--purple {
+  background: $purple;
+}
+
+.swatch--salmon {
+  background: $salmon;
+}
+
+.swatch--orange {
+  background: $orange;
+}
+
+.swatch--gold {
+  background: $gold;
+}
+
+.swatch--green {
+  background: $green;
+}
+
+.swatch--white {
+  background: $white;
+  border: 1px solid $border-gray;
+}
+
+.swatch--section-gray {
+  background: $section-gray;
+  border: 1px solid $border-gray;
+}
+
+.swatch--border-gray {
+  background: $border-gray;
+}
+
+.swatch--light-gray {
+  background: $light-gray;
+}
+
+.swatch--ash-gray {
+  background: $ash-gray;
+}
+
+.swatch--mid-gray {
+  background: $mid-gray;
+}
+
+.swatch--charcoal-gray {
+  background: $charcoal-gray;
+}
+
+.swatch--gunmetal-gray {
+  background: $gunmetal-gray;
+}
+
+.swatch--dark-gray {
+  background: $dark-gray;
+}
+
+.swatch--gradient--blue-aqua {
+  @include gradient-lr($gradient-blue-aqua-1, $gradient-blue-aqua-2);
+}
+
+.swatch--gradient--green-teal {
+  @include gradient-lr($gradient-green-teal-1, $gradient-green-teal-2);
+}
+
+.swatch--gradient--orange-gold {
+  @include gradient-lr($gradient-orange-gold-1, $gradient-orange-gold-2);
+}
+
+.swatch--gradient--purple-aqua {
+  @include gradient-lr($gradient-purple-aqua-1, $gradient-purple-aqua-2);
+}
+
+.swatch--gradient--salmon-orange {
+  @include gradient-lr($gradient-salmon-orange-1, $gradient-salmon-orange-2);
+}
+
+.swatch--gradient--aqua-green {
+  @include gradient-lr($gradient-aqua-green-1, $gradient-aqua-green-2);
+}
+
+
+
+

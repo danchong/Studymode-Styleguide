@@ -1,0 +1,16 @@
+.brand-color {
+  color: $brand-primary;
+}
+
+.brand-background {
+  background-color: $brand-primary;
+}
+
+
+a {
+  color: $brand-primary;
+  
+  &:hover {
+    color: darken($brand-primary, 10%);
+  }
+}

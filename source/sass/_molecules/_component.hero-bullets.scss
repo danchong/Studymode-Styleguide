@@ -1,0 +1,26 @@
+.hero-bullets {
+  [data-icon]::before,
+  [class^="icon-"]::before,
+  [class*=" icon-"]::before {
+    vertical-align: middle;
+  }
+
+  &__item {
+    display: inline-block;
+    
+    text-align: center;
+    
+    .icon {
+//       float: left;
+      display: block;
+      font-size: pxe(24px);
+      margin-bottom: pxe(1px);
+    }
+    
+    span {
+//       float: left;
+      font-size: pxe(14px);
+      line-height: 1;
+    }
+  }
+}
